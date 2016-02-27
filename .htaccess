@@ -1,0 +1,23 @@
+# Protect the htaccess file
+<files .htaccess>
+	order allow,deny
+	deny from all
+</files>
+
+# Protect the params.php file
+<files params.php>
+	order allow,deny
+	deny from all
+</files>
+
+# Protect the params.json file
+<files params.json>
+	order allow,deny
+	deny from all
+</files>
+
+# Protect the index.php file
+<files index.php>
+	order allow,deny
+	deny from all
+</files>

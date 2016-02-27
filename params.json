@@ -1,0 +1,155 @@
+{
+	"attrs": {
+		"type": "parameters",
+		"client": "block",
+		"version": "1.0.0",
+			"name": "article_author"
+	},
+	"header": {
+		"version": "1.0.0",
+		"license": "APL_license",
+		"author": "APL_author",
+		"creation": "APL_creation",
+		"copyright": "APL_copyright",
+		"email": "webmaster@alexsoft.gr",
+		"url": "www.alexsoft.gr",
+		"translator": "APL_translator",
+		"translatorEmail": "APL_translatorEmail",
+		"translatorUrl": "APL_translatorUrl",
+		"description": "APL_desc"
+	},
+	"params": {
+		"0": {
+			"paramgroup": "APL_paramgroup_general_label",
+			"0": {
+				"name": "show_username",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_username_label",
+				"description": "APL_show_username_desc"
+			},
+			"1": {
+				"name": "show_avatar",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_avatar_label",
+				"description": "APL_show_avatar_desc"
+			},
+			"2": {
+				"name": "show_star",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_star_label",
+				"description": "APL_show_star_desc"
+			},
+			"3": {
+				"type": "separate"
+			},
+			"4": {
+				"name": "theme",
+				"type": "themelist",
+				"placeholder":"APL_theme_placeholder",
+				"default": "default",
+				"label": "APL_theme_label",
+				"description": "APL_theme_desc"
+			}
+		},
+		"1": {
+			"paramgroup": "APL_paramgroup_details_label",
+			"0": {
+				"name": "show_details",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_details_label",
+				"description": "APL_show_details_desc"
+			},
+			"1": {
+				"name": "show_title",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_title_label",
+				"description": "APL_show_title_desc"
+			},
+			"2": {
+				"name": "show_register",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_register_label",
+				"description": "APL_show_register_desc"
+			},
+			"3": {
+				"name": "show_occupation",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_occupation_label",
+				"description": "APL_show_occupation_desc"
+			},
+			"4": {
+				"name": "show_website",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_website_label",
+				"description": "APL_show_website_desc"
+			},
+			"5": {
+				"name": "show_posts",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_posts_label",
+				"description": "APL_show_posts_desc"
+			},
+			"6": {
+				"name": "show_signature",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_signature_label",
+				"description": "APL_show_signature_desc"
+			}
+		},
+		"2": {
+			"paramgroup": "APL_paramgroup_address_label",
+			"0": {
+				"name": "show_address_info",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_address_info_label",
+				"description": "APL_show_address_info_desc"
+			},
+			"1": {
+				"name": "show_address",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_address_label",
+				"description": "APL_show_address_desc"
+			},
+			"2": {
+				"name": "show_zip",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_zip_label",
+				"description": "APL_show_zip_desc"
+			},
+			"3": {
+				"name": "show_city",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_city_label",
+				"description": "APL_show_city_desc"
+			},
+			"4": {
+				"name": "show_state",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_state_label",
+				"description": "APL_show_state_desc"
+			},
+			"5": {
+				"name": "show_country",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_country_label",
+				"description": "APL_show_country_desc"
+			}
+		}
+	}
+}
